@@ -1,15 +1,8 @@
 #!bin/bash
 # By PlmH
 echo " " >> system/build.prop
-echo "# Phoenix Collection Tweak " >> system/build.prop
+echo "# Fusion Collection Tweak " >> system/build.prop
 echo "# BY PlmH" >> system/build.prop
-
-echo " " >> system/build.prop
-echo "# Multi Users" >> system/build.prop
-echo "fw.max_users=30" >> system/build.prop
-echo "fw.show_multiuserui=1" >> system/build.prop
-echo "fw.show_hidden_users=1" >> system/build.prop
-echo "fw.power_user_switcher=1" >> system/build.prop
 
 echo "  " >> system/build.prop
 echo "# Screen Mirrorring Fix" >> system/build.prop
