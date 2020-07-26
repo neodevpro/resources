@@ -59,7 +59,7 @@ echo "#Wifi Fix" >> system/build.prop
 echo "ro.securestorage.support=false" >> system/build.prop
 
 echo "  " >> system/build.prop
-echo "# Misc Tweaks" >> /system/build.prop
+echo "# Misc Tweaks" >> system/build.prop
 echo "ro.com.google.locationfeatures=1" >> system/build.prop
 echo "ro.com.google.networklocation=1" >> system/build.prop
 echo "touch.presure.scale=0.001" >> system/build.prop
