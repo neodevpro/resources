@@ -7,6 +7,9 @@ find $CSC_DIRECTORY -type f -name "cscfeature.xml" -exec sed -i -- '/<FeatureSet
 find $CSC_DIRECTORY -type f -name "cscfeature.xml" -exec sed -i -- '/<FeatureSet>/ a\    <CscFeature_Settings_GOTA>FALSE</CscFeature_Settings_GOTA>' {} +
 find $CSC_DIRECTORY -type f -name "cscfeature.xml" -exec sed -i -- '/<FeatureSet>/ a\    <CscFeature_Setting_DisableMenuSoftwareUpdate>TRUE</CscFeature_Setting_DisableMenuSoftwareUpdate>' {} +
 find $CSC_DIRECTORY -type f -name "cscfeature.xml" -exec sed -i -- '/<FeatureSet>/ a\    <CscFeature_Settings_Software_Update_Settings>FALSE</CscFeature_Settings_Software_Update_Settings>' {} +
+find $CSC_DIRECTORY -type f -name "cscfeature.xml" -exec sed -i -- '/<FeatureSet>/ a\    <CscFeature_GMS_DisableSetupWizard>TRUE</CscFeature_GMS_DisableSetupWizard>' {} +
+
+
 exit 10
 	
 
