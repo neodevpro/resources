@@ -153,3 +153,24 @@ rm -rf system/priv-app/SVoiceIME
 rm -rf system/priv-app/StickerCenter
 rm -rf system/priv-app/StickerFaceAR
 rm -rf system/priv-app/StickerWatermark
+
+rm -rf system/etc/init/samsung_pass_authenticator_service.rc
+rm -rf system/etc/permissions/privapp-permissions-com.microsoft.skydrive.xml
+rm -rf system/etc/permissions/privapp-permissions-com.samsung.android.app.kfa.xml
+rm -rf system/etc/permissions/privapp-permissions-com.samsung.android.authfw.xml
+rm -rf system/etc/permissions/privapp-permissions-com.samsung.android.carkey.xml
+rm -rf system/etc/permissions/privapp-permissions-com.samsung.android.dkey.xml
+rm -rf system/etc/permissions/privapp-permissions-com.samsung.android.game.gamehome.xml
+rm -rf system/etc/permissions/privapp-permissions-com.samsung.android.samsungpass.xml
+rm -rf system/etc/permissions/privapp-permissions-com.samsung.android.spayfw.xml
+rm -rf system/etc/permissions/privapp-permissions-com.sec.android.diagmonagent.xml
+rm -rf system/etc/permissions/privapp-permissions-com.wssyncmldm.xml
+rm -rf system/etc/permissions/privapp-permissions-de.axelspringer.yana.zeropage.xml
+rm -rf system/etc/permissions/privapp-permissions-meta.xml
+rm -rf system/etc/sysconfig/digitalkey.xml
+rm -rf system/etc/sysconfig/meta-hiddenapi-package-allowlist.xml
+rm -rf system/etc/sysconfig/preinstalled-packages-com.samsung.android.dkey.xml
+rm -rf system/etc/sysconfig/preinstalled-packages-com.samsung.android.spayfw.xml
+rm -rf system/etc/sysconfig/samsungauthframework.xml
+rm -rf system/etc/sysconfig/samsungpassapp.xml
+
